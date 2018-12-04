@@ -35,6 +35,8 @@ framework:
 
 # Twig Configuration
 twig:
+    number_format:
+        thousands_separator: '.'
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
 
